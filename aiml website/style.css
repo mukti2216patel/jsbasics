@@ -9,9 +9,11 @@ html,body{
     height: 100%;
     width: 100%;
 }
-nav:hover #nav-bottom{
+nav:hover {
+    #nav-bottom{
     height: 100%;
     bottom: -100%;
+    }
 }
 #nav-bottom{
     background-color: red;
@@ -26,11 +28,13 @@ nav:hover #nav-bottom{
     justify-content: space-between;
     padding: 2vw 15vw;
 }
+
 nav{
     position: fixed;
     display: flex;
     align-items: center;
     width: 100%;
+    height: auto;
     padding: 2vw 10.4vw;
     justify-content: space-between;
 }
